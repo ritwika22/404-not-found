@@ -93,6 +93,49 @@ footer p a{
 
 
 
+
+@media only screen and (max-width: 700px) {
+    body {
+        margin: 30px 20px;
+        height: calc(100vh - 60px);
+    }
+
+
+    .container {
+        /* flex-direction: column; */
+        /* margin: 60px auto; */
+    }
+
+    .details,
+    .scarecrow {
+        width: 100%;
+    }
+
+    .scarecrow img {
+        width: 95% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .details h1 {
+        font-size: 45px;
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .details p {
+        font-size: 18px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    footer p{
+        width: 100%;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 450px) {
     body {
         margin: 30px 20px;
