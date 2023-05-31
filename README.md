@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?type=design&node-id=0-1&t=IJUrnD1GnXn0GXij-0">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://404-not-found-ritwika.netlify.app/">
       Solution
     </a>
     <span> | </span>
