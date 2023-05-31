@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+    margin: 40px 77px;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.num {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    align-items: center;
+    /* justify-content: space-between; */
+    font-family: 'Space Mono', monospace;
+    /* width: 80%; */
+    margin: 155px auto;
+    /* gap: 90px; */
+}
+
+.details,
+.scarecrow {
+    width: 50%;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.scarecrow img {
+    width: 540px !important;
+}
+
+/* .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.details h1 {
+    color: #333;
+    font-size: 60px;
+    width: 83%;
+    margin-bottom: 42px;
+}
+
+.details p {
+    color: #4f4f4f;
+    font-size: 22px;
+    margin-bottom: 42px;
+    width: 56%;
+}
+
+.details a {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 40px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer p a{
+    font-weight: 700;
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        margin: 30px 20px;
+        height: calc(100vh - 60px);
+    }
+
+
+    .container {
+        flex-direction: column;
+        margin: 60px auto;
+    }
+
+    .details,
+    .scarecrow {
+        width: 100%;
+    }
+
+    .scarecrow img {
+        width: 287px !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .details h1 {
+        font-size: 45px;
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .details p {
+        font-size: 18px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    footer p{
+        width: 100%;
+    }
+}
